@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portf¨®lio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Ol¨¢ eu sou o Fabr¨ªcio</p>
+        <h1>Eu sou um aluno do curso alura</h1>
+        <p>Eu sou um aluno que gosta de fazer projetos e me desenvolver em programa??o ja fiz alguns projetos confira</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+            <p class="badge bg-secondary">VScode</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Minha Biblioteca: Um ca?a tesouro</h5>
+                        <p class="card-text">Esse projeto foi feito no VScode ele tem como objetivo achar um tesouro que foi perdido nisso voce vai ter que viajar para alguns paises para tentar encontralo
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Decidindo o Futuro: Uma Jornada Interativa sobre a Intelig¨ºncia
+                            Artificial</h5>
+                        <p class="card-text">Este projeto ¨¦ um jogo interativo baseado em navegador que explora o
+                            impacto e as implica??es da Intelig¨ºncia Artificial (IA) na sociedade, permitindo que as
+                            pessoas jogadoras fa?am escolhas que influenciam o desenrolar de uma narrativa sobre o
+                            futuro da IA.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Explorando o Universo: Uma Aventura Interativa em Astronomia com Scratch
+                        </h5>
+                        <p class="card-text">EEste projeto Scratch cria uma experi¨ºncia interativa educativa sobre
+                            astronomia, permitindo aos usu¨¢rios explorar informa??es sobre constela??es, eclipses, e a
+                            forma da Terra atrav¨¦s de cen¨¢rios din?micos e di¨¢logos informativos.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Um ca?a tesouro</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Clique logo a baixo e se divirta!!!</p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="a imagem representa um jogo de tesouro">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://fabricio4592.github.io/fabrici0tesouro/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/Fabricio4592/fabrici0tesouro">Ver c¨®digo do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto consiste em uma aplica??o web interativa, desenvolvida com HTML, CSS, e JavaScript, que
+                        simula uma experi¨ºncia narrativa centrada no tema da Intelig¨ºncia Artificial. O objetivo ¨¦
+                        engajar os jogadores em um cen¨¢rio fict¨ªcio que aborda o avan?o da IA e suas poss¨ªveis
+                        consequ¨ºncias para a humanidade, destacando a import?ncia da reflex?o ¨¦tica sobre a tecnologia.
+                    </p>
+                    <p>O HTML estrutura o conte¨²do da p¨¢gina, dividindo-o em se??es como a tela inicial, caixa de
+                        perguntas, alternativas de resposta, e o resultado final baseado nas escolhas do jogador. O CSS
+                        ¨¦ utilizado para estilizar a p¨¢gina, empregando um esquema de cores futurista e layout
+                        responsivo para melhorar a experi¨ºncia do usu¨¢rio. JavaScript ¨¦ usado para adicionar
+                        interatividade ao jogo, manipulando o DOM para atualizar o conte¨²do da p¨¢gina conforme as
+                        escolhas do jogador, e determinando o fluxo da narrativa atrav¨¦s de uma s¨¦rie de perguntas e
+                        respostas.</p>
+                    <p>O HTML organiza o conte¨²do em um cabe?alho com o t¨ªtulo do site, seguido por uma divis?o
+                        principal (.container) que apresenta o prop¨®sito do site e a cole??o de livros em uma se??o
+                        flex¨ªvel (.livros). Cada livro ¨¦ destacado em seu pr¨®prio cont¨ºiner (.livro), mostrando uma
+                        imagem da capa, detalhes do livro e um link de compra. O design responsivo ¨¦ garantido pelo
+                        uso de uma meta tag viewport e um layout flex¨ªvel que se adapta a diferentes tamanhos de
+                        tela.</p>
+                    <p>Os scripts JavaScript incluem m¨®dulos para gerar nomes aleat¨®rios, definir as perguntas e as
+                        l¨®gicas de jogo, como iniciar o jogo, apresentar perguntas e alternativas, processar as escolhas
+                        dos jogadores, e exibir o resultado final. Este design modular facilita a manuten??o e a
+                        expans?o futura do jogo. A import?ncia das ferramentas utilizadas (HTML, CSS, JavaScript) reside
+                        na cria??o de uma experi¨ºncia interativa que n?o apenas entret¨¦m, mas tamb¨¦m educa os jogadores
+                        sobre a complexidade ¨¦tica e social da IA, incentivando a reflex?o cr¨ªtica sobre o papel da
+                        tecnologia em nossas vidas.
+                    </p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://fabricio4592.github.io/Nootbooks/">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/Fabricio4592/Nootbooks">Ver c¨®digo do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto ¨¦ uma aplica??o educativa interativa focada em ensinar conceitos b¨¢sicos de
+                        astronomia. Utiliza uma s¨¦rie de scripts associados a diferentes atores (sprites) e
+                        cen¨¢rios para criar uma experi¨ºncia de aprendizado envolvente. O objetivo ¨¦ familiarizar
+                        os usu¨¢rios com t¨®picos como as fases da Lua, eclipses, a visibilidade de diferentes
+                        constela??es dependendo da localiza??o geogr¨¢fica na Terra, e a forma da Terra, atrav¨¦s
+                        de intera??es e visualiza??es din?micas.</p>
+                    <p>Cada ator no projeto possui scripts que definem seu comportamento em resposta a eventos
+                        espec¨ªficos, como o in¨ªcio do programa (quando a bandeira ¨¦ clicada), cliques do
+                        usu¨¢rio, ou mensagens recebidas. Estes eventos desencadeiam a??es como mudan?as de
+                        cen¨¢rio, movimentos de atores, exibi??o ou oculta??o de atores, e a apresenta??o de
+                        di¨¢logos informativos. Por exemplo, ao clicar em determinados atores, os usu¨¢rios podem
+                        "receber" uma prova, o que leva a uma mudan?a de cen¨¢rio e a exibi??o de informa??es
+                        relevantes ou a visualiza??o de uma constela??o espec¨ªfica.</p>
+                    <p>A import?ncia das ferramentas utilizadas, como os blocos de c¨®digo visual do Scratch,
+                        reside na sua acessibilidade e na capacidade de engajar aprendizes de diferentes idades
+                        no pensamento computacional e na explora??o de conceitos cient¨ªficos de forma
+                        interativa. O uso de cen¨¢rios, movimentos, e di¨¢logos din?micos ajuda a criar uma
+                        experi¨ºncia de aprendizado mais rica e memor¨¢vel, encorajando os usu¨¢rios a explorar e
+                        interagir com o conte¨²do de maneira ativa, em vez de passivamente.</p>
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://fabricio4592.github.io/Fabalura1/">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/Fabricio4592">GitHub</a>
+        </div>
+        <p class="my-5 text-center">? Copyright 2024. Produzido por Fernanda Mascheti</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
